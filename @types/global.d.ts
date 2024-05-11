@@ -14,3 +14,5 @@ declare global {
   type Falsy = false | 0 | '' | null | undefined;
   type Maybe<T> = T | undefined;
 }
+
+export {};
