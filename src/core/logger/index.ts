@@ -1,5 +1,3 @@
-/* eslint-disable global-require */
-
 import pino from 'pino';
 
 import config from '@/config';
@@ -13,6 +11,7 @@ function getPino() {
 
   // we inject "pino-pretty" only in dev mode to make our console logs look nice
   if (isDev) {
+    // eslint-disable-next-line global-require
     const pretty = require('pino-pretty');
 
     return pino(
