@@ -17,11 +17,11 @@ function If<Value = unknown>({
         return <>{children(condition)}</>;
       }
 
-      return <>{children}</>;
+      return children;
     }
 
     if (fallback) {
-      return <>{fallback}</>;
+      return fallback;
     }
 
     return null;
