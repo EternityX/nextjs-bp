@@ -6,7 +6,7 @@
 - ESLint
 - Prettier
 - Logging with Pino
-- Capture errors with Sentry and Spotlight
+- Error monitoring with Sentry and Spotlight
 
 ## Getting Started
 
