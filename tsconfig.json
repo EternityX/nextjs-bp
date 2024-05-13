@@ -25,7 +25,7 @@
     "jsx": "preserve",
     "incremental": true,
     "removeComments": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "baseUrl": ".",
     "plugins": [
       {
